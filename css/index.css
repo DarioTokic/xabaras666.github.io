@@ -1,0 +1,138 @@
+#back1 {
+    width: 21vw;
+    height: 54vh;
+    left: 32vw;
+    top: 25vh
+}
+
+#profilePicDiv {
+    left: 46vw;
+    top:  30vh;
+}
+
+#profilePic {
+    width: 25vw;
+}
+
+#pl1 {
+    width: 22vw;
+    left: 26vw;
+    top: 32vh;
+}
+
+
+#back2 {
+    width: 22vw;
+    height: 70vh;
+    left: 35vw;
+    top: 20vh;
+}
+
+#pl2 {
+    width: 25vw;
+    left: 20vw;
+    top: 23vh;
+}
+
+.backGray {
+    width: 20vw;
+    height: 16vw;
+    left: 40vw;
+    top: 46vh;
+}
+
+#pl3 {
+    width: 25vw;
+    left: 48vw;
+    top: 49vh;
+}
+
+@media screen and (max-width: 900px) {
+    #back1 {
+        width: 50vw;
+        height: 50vh;
+        left: 26vw;
+        top: 28vh
+    }
+
+    #profilePicDiv {
+        left: 44vw;
+        top:  18vh;
+    }
+
+    #profilePic {
+        width: 40vw;
+    }
+
+    #pl1 {
+        width: 38vw;
+        left: 20vw;
+        top: 52vh;
+    }
+
+    #back2 {
+        width: 46vw;
+        height: 40vh;
+        left: 24vw;
+        top: 24vh;
+    }
+    
+    #pl2 {
+        width: 34vw;
+        left: 16vw;
+        top: 20vh;
+    }
+    
+    .backGray {
+        width: 30vw;
+        height: 20vw;
+        left: 36vw;
+        top: 45vh;
+    }
+    
+    #pl3 {
+        width: 32vw;
+        left: 42vw;
+        top: 50vh;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    
+    #profilePicDiv {
+        left: 40vw;
+    }
+
+    #profilePic {
+        width: 50vw;
+    }
+
+    #pl1 {
+        width: 48vw;
+        left: 16vw;
+        top: 46vh;
+    }
+    #back2 {
+        width: 54vw;
+        height: 50vh;
+    }
+
+    #pl2 {
+        width: 46vw;
+        left: 14vw;
+        top: 16vh;
+    }
+    
+    .backGray {
+        width: 40vw;
+        height: 30vw;
+        left: 28vw;
+        top: 54vh;
+    }
+    
+    #pl3 {
+        width: 44vw;
+        left: 36vw;
+        top: 56vh;
+    }
+}

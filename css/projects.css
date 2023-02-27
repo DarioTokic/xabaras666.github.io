@@ -1,0 +1,184 @@
+#back1 {
+    width: 26vw;
+    height: 76vh;
+    left: 32vw;
+    top: 16vh;
+}
+
+#pl1 {
+    width: 29vw;
+    left: 6vw;
+    top: 16vh;
+}
+
+#pl2 {
+    width: 31vw;
+    left: 8vw;
+    top: 52vh;
+}
+
+#pl3 {
+    width: 25vw;
+    left: 46vw;
+    top: 14vh;
+}
+
+#slidoPic {
+    left: 50vw;
+    top: 48vh;
+}
+
+#slidoPic img {
+    width: 44vw;
+}
+
+#back2 {
+    width: 30vw;
+    height: 70vh;
+    left: 30vw;
+    top: 20vh;
+}
+
+#pl4 {
+    width: 31vw;
+    left: 6vw;
+    top: 18vh;
+}
+
+#pl5 {
+    width: 33vw;
+    left: 10vw;
+    top: 54vh;
+}
+
+
+#wtwPic {
+    left: 52vw;
+    top: 24vh;
+}
+
+#wtwPic img {
+    width: 44vw;;
+}
+
+#pl6 {
+    width: 34vw;
+    left: 54vw;
+    top: 74vh;
+}
+
+@media screen and (max-width: 900px) {
+
+    #back1 {
+        width: 40vw;
+        height: 70vh;
+    }
+    
+    #pl1 {
+        width: 32vw;
+        left: 6vw;
+        top: 16vh;
+    }
+
+    #pl2 {
+        width: 34vw;
+        left: 8vw;
+        top: 62vh;
+    }
+
+    #pl3 {
+        width: 34vw;
+        left: 50vw;
+    }
+
+    #slidoPic {
+        left: 45vw;
+        top: 48vh;
+    }
+    
+    #slidoPic img {
+        width: 54vw;
+    }
+
+    #wtwPic {
+        left: 44vw;
+        top: 24vh;
+    }
+    
+    #wtwPic img {
+        width: 54vw;;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    p {
+        font-size: 0.8rem;
+    }
+    
+    #back1 {
+        width: 64vw;
+        height: 76vh;
+        left: 12vw;
+        top: 16vh;
+    }
+
+    #pl1 {
+        width: 60vw;
+        left: 6vw;
+        top: 16vh;
+    }
+
+    #pl2 {
+        width: 54vw;
+        left: 8vw;
+        top: 74vh;
+    }
+
+    #pl3 {
+        width: 50vw;
+        left: 20vw;
+        top: 40vh;
+    }
+
+    #slidoPic {
+        left: 26vw;
+        top: 60vh;
+    }
+    
+    #slidoPic img {
+        width: 70vw;
+    }
+
+    #back2 {
+        width: 60vw;
+        left: 20vw;
+    }
+    
+    #pl4 {
+        width: 60vw;
+        left: 6vw;
+        top: 18vh;
+    }
+    
+    #pl5 {
+        width: 63vw;
+        left: 10vw;
+        top: 56vh;
+    }
+    
+    
+    #wtwPic {
+        left: 22vw;
+        top: 40vh;
+    }
+    
+    #wtwPic img {
+        width: 70vw;;
+    }
+    
+    #pl6 {
+        width: 66vw;
+        left: 14vw;
+        top: 80vh;
+    }
+}

@@ -1,0 +1,288 @@
+#back1 {
+    width: 24vw;
+    height: 66vh;
+    left: 38vw;
+    top: 20vh;
+}
+
+#pl1 {
+    width: 28vw;
+    left: 12vw;
+    top: 22vh;
+}
+
+#jsDiv {
+    left: 56vw;
+    top: 17vh;
+}
+
+#jsDiv img {
+    height: 20vh;
+}
+
+#nodeDiv {
+    left: 32vw;
+    top: 64vh;
+}
+
+#nodeDiv img {
+    height: 20vh;
+}
+
+#pl2 {
+    width: 26vw;
+    left: 55vw;
+    top: 52vh;
+}
+
+#back2 {
+    width: 40vw;
+    height: 38vh;
+    left: 28vw;
+    top: 40vh;
+}
+
+#pl3 {
+    width: 26vw;
+    left: 14vw;
+    top: 42vh;
+}
+
+#htmlDiv {
+    left: 48vw;
+    top: 28vh;
+}
+
+#htmlDiv img {
+    height: 20vh;
+}
+
+#cssDiv {
+    left: 65vw;
+    top: 38vh;
+}
+
+#cssDiv img {
+    height: 20vh;
+}
+
+#psqlDiv {
+    left: 26vw;
+    top: 66vh;
+}
+
+#psqlDiv img {
+    height: 20vh;
+}
+
+#pl4 {
+    width: 26vw;
+    left: 52vw;
+    top: 64vh;
+}
+
+#back3 {
+    width: 22vw;
+    height: 66vh;
+    left: 36vw;
+    top: 20vh;
+}
+
+#pl5 {
+    width: 34vw;
+    left: 19vw;
+    top: 18vh;
+}
+
+#linuxDiv {
+    left: 28vw;
+    top: 48vh;
+}
+
+#linuxDiv img {
+    height: 20vh;
+}
+
+#pl6 {
+    width: 34vw;
+    left: 44vw;
+    top: 60vh;
+}
+
+@media screen and (max-width: 900px) {
+    #back1 {
+        width: 42vw;
+        left: 32vw;
+    }
+    
+    #pl1 {
+        width: 32vw;
+        left: 8vw;
+    }
+    
+    #nodeDiv {
+        left: 20vw;
+    }
+    
+    #pl2 {
+        width: 30vw;
+    }
+    
+    #back2 {
+        width: 50vw;
+        height: 60vh;
+        left: 24vw;
+        top: 30vh;
+    }
+    
+    #pl3 {
+        width: 26vw;
+        left: 10vw;
+        top: 32vh;
+    }
+    
+    #htmlDiv {
+        left: 48vw;
+        top: 20vh;
+    }
+    
+    #cssDiv {
+        left: 66vw;
+        top: 38vh;
+    }
+    
+    #psqlDiv {
+        left: 16vw;
+    }
+    
+    #pl4 {
+        width: 30vw;
+    }
+
+    #back3 {
+        width: 40vw;
+        left: 26vw;
+    }
+    
+    #pl5 {
+        width: 38vw;
+        left: 16vw;
+        top: 18vh;
+    }
+    
+    #linuxDiv {
+        left: 12vw;
+        top: 60vh;
+    }
+    
+    #pl6 {
+        width: 38vw;
+        top: 56vh;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    #back1 {
+        width: 54vw;
+        height: 60vh;
+        left:20vw;
+    }
+    
+    
+    #jsDiv {
+        left: 60vw;
+        top: 27vh;
+    }
+    
+    #jsDiv img {
+        height: 12vh;
+    }
+    
+    #nodeDiv {
+        left: 12vw;
+    }
+    
+    #nodeDiv img {
+        height: 12vh;
+    }
+    
+    #pl2 {
+        width: 40vw;
+        left: 42vw;
+        top: 62vh;
+    }
+    
+    #back2 {
+        width: 56vw;
+        height: 58vh;
+        left: 20vw;
+        top: 20vh;
+    }
+    
+    #pl3 {
+        width: 26vw;
+        left: 10vw;
+        top: 18vh;
+    }
+    
+    #htmlDiv {
+        left: 52vw;
+        top: 22vh;
+    }
+    
+    #htmlDiv img {
+        height: 12vh;
+    }
+    
+    #cssDiv {
+        left: 56vw;
+    }
+    
+    #cssDiv img {
+        height: 12vh;
+    }
+    
+    #psqlDiv {
+        left: 10vw;
+        top: 60vh;
+    }
+    
+    #psqlDiv img {
+        height: 12vh;
+    }
+    
+    #pl4 {
+        width: 32vw;
+        left: 46vw;
+        top: 56vh;
+    }
+    
+    #back3 {
+        width: 62vw;
+        left: 16vw;
+    }
+    
+    #pl5 {
+        width: 54vw;
+        left: 12vw;
+        top: 18vh;
+    }
+    
+    #linuxDiv {
+        left: 10vw;
+        top: 52vh;
+    }
+    
+    #linuxDiv img {
+        height: 12vh;
+    }
+    
+    #pl6 {
+        width: 42vw;
+        left: 40vw;
+        top: 50vh;
+    }
+
+
+}

@@ -1,0 +1,69 @@
+.back {
+    width: 22vw;
+    height: 52vh;
+    left: 36vw;
+    top: 24vh;
+}
+
+#pl1 {
+    width: 30vw;
+    left: 10vw;
+    top: 22vh;
+}
+
+
+#pmfDiv {
+    left: 49vw;
+    top: 28vh;
+}
+
+#pmfDiv img {
+    width: 34vw;
+}
+
+#pl2 {
+    width: 30vw;
+    left: 20vw;
+    top: 58vh;
+}
+
+@media screen and (max-width: 900px) {
+
+    .back {
+        width: 42vw;
+        height: 56vh;
+        left: 26vw;
+    }
+
+    #pmfDiv img {
+        width: 44vw;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .back {
+        width: 54vw;
+        height: 48vh;
+        left: 22vw;
+    }
+
+    #pl1 {
+        width: 64vw;
+        top: 18vh;
+    }
+
+    #pmfDiv {
+        left: 16vw;
+        top: 46vh;
+    }
+
+    #pmfDiv img {
+        width: 80vw;
+    }
+
+    #pl2 {
+        width: 60vw;
+        left: 18vw;
+        top: 70vh;
+    }
+}

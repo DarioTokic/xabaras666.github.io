@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+#logo {
+    position: fixed;
+    z-index: 1;
+    width: 184px;
+    height: 115px;
+    left: -10px;
+    top: 0px;
+    transition: all 0.3s;
+}
+
+#logo:hover {
+    transform: scale(1.2);
+}
+
+#menu {
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 24px;
+}
+
+#menu a {
+    position: relative;
+    text-decoration: none;
+    margin: 0 10px;
+    color: #a0a0a0;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+#menu a:after {
+    content: "";
+    position: absolute;
+    background-color: #3500d3;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom:  -10px;
+    transition: all 0.3s;
+}
+
+#menu a:hover {
+    color: #fff;
+}
+
+#menu a:hover::after {
+    width: 100%;
+}
+
+main {
+    background-image: url('../images/portfolioWallpaper.png');
+    background-position: center;
+} 
+
+.navigation {
+    position: fixed;
+    top: 5.2rem;
+    right: 2rem;
+    list-style: none;
+    z-index: 1;
+}
+
+.navigation li {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #3500d3;
+    margin-bottom: 20px;
+    transform: rotate(45deg);
+    transition: all 0.3s;
+}
+
+.navigation li:hover, .navigation li.selected {
+    transform: rotate(0);
+    background-color: #3500d3;
+}
+
+section {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+section div {
+    position: absolute;
+}
+
+section div:hover {
+    transform: scale(1.02);
+}
+
+.line1 {
+    background-color: #282828;
+    width: 5px;
+    height: 100vh;
+    left: 49vw;
+}
+
+.line2 {
+    background-color: #282828;
+    height: 5px;
+    width: 100vw;
+    top: 49vh;
+}
+
+.back {
+    background-color: #0c0032;
+}
+
+.backGray {
+    background-color: #282828;
+}
+
+.frame {
+    background-color: #3500d3;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    height: auto;
+    box-shadow: 5px 5px 15px #000;
+
+}
+
+.plus {
+    height: 24px;
+    position: absolute;
+}
+
+.frame .plus.n { top: -24px; }
+.frame .plus.s { bottom: -24px}
+.frame .plus.w { left: -24px}
+.frame .plus.e { right: -24px}
+
+.frame {
+    padding: 1.2rem;
+}
+
+@media screen and (max-width: 900px) {
+
+    #menu {
+        font-size: 0.9rem;
+    }
+
+    .navigation li {
+        height: 16px;
+        width: 16px;
+    }
+
+    .frame {
+        font-size: 1rem;
+    }
+}
