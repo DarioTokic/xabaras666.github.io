@@ -182,3 +182,14 @@
         top: 80vh;
     }
 }
+
+@media screen and (max-width: 390px) {
+
+    p {
+        font-size: 0.7rem;
+    }
+
+    #pl2 {
+        top: 78vh;
+    }
+}

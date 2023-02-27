@@ -26,20 +26,19 @@
 }
 
 #pl2 .contact {
-    height: 6vh;
+    height: 40px;
 }
 
 #pl3 {
-    width: 80px;
-    height: auto;
     left: 58vw;
     top: 52vh;
     display: flex;
     flex-direction: column;
+    padding: 0.5rem;
 }
 
 #pl3 .link {
-    width: 80px;
+    width: 40px;
 }
 
 @media screen and (max-width: 900px) {
@@ -89,4 +88,15 @@
         top: 48vh;
     }
     
+}
+
+@media screen and (max-width: 390px) {
+
+    #pl1 {
+        width: 34vw;
+    }
+
+    #pl3 {
+        left: 68vw;
+    }
 }

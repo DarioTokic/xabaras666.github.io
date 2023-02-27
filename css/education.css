@@ -67,3 +67,11 @@
         top: 70vh;
     }
 }
+
+@media screen and (max-width: 390px) {
+
+    p {
+        font-size: 0.9rem;
+    }
+
+}

@@ -20,7 +20,6 @@ el.addEventListener("mousemove", (e) => {
   el.style.backgroundPositionY = -e.clientY/5 + "px";
 });
 
-
 function reset() {
     for(let i = 0; i < navigation.children.length; i++) {
         navigation.children[i].classList.remove('selected');

@@ -283,6 +283,13 @@
         left: 40vw;
         top: 50vh;
     }
+}
 
+@media screen and (max-width: 390px) {
 
+    #pl6 {
+        width: 48vw;
+        left: 36vw;
+        top: 50vh;
+    }
 }
