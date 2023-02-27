@@ -100,3 +100,25 @@
         left: 68vw;
     }
 }
+
+@media screen and (max-width: 350px) {
+
+    p {
+        font-size: 0.7rem;
+    }
+
+    #pl2 {
+        top: 24vh;
+    }
+
+    #pl1 {
+        width: 40vw;
+        left: 8vw;
+        top: 54vh;
+    }
+
+    #pl3 {
+        top: 60vh;
+        left: 70vw;
+    }
+}

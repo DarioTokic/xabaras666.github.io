@@ -75,3 +75,31 @@
     }
 
 }
+
+@media screen and (max-width: 350px) {
+
+    section {
+        height: 120vh;
+    }
+    .back {
+        width: 54vw;
+        height: 66vh;
+        left: 22vw;
+    }
+    
+    #pl1 {
+        width: 70vw;
+        top: 24vh;
+    }
+
+    #pmfDiv {
+        left: 16vw;
+        top: 58vh;
+    }
+
+    #pl2 {
+        width: 70vw;
+        left: 8vw;
+        top: 84vh;
+    }
+}

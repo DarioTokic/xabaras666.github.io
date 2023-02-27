@@ -193,3 +193,45 @@
         top: 78vh;
     }
 }
+
+@media screen and (max-width: 350px) {
+
+    section {
+        height: 120vh;
+    }
+
+    #back1 {
+        width: 64vw;
+        height: 86vh;
+    }
+
+    #pl3 {
+        top: 48vh;
+    }
+
+    #slidoPic {
+        left: 14vw;
+        top: 74vh;
+    }
+
+    #pl2 {
+        top: 94vh;
+    }
+
+    #back2 {
+        height: 96vh;
+    }
+
+    #wtwPic {
+        top: 44vh;
+    }
+
+    #pl5 {
+        left: 6vw;
+        top: 66vh;
+    }
+
+    #pl6 {
+        top: 94vh;
+    }
+}
