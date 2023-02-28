@@ -71,6 +71,10 @@ p {
     width: 100%;
 }
 
+#menuMobile {
+    display: none;
+}
+
 main {
     background-image: url('../images/portfolioWallpaper.webp');
 }
@@ -187,6 +191,58 @@ section div:hover {
     .frame {
         font-size: 1rem;
     }
+}
+
+@media screen and (max-width: 450px) {
+
+    .desktop a {
+        display: none;
+    }
+
+    #menuMobile {
+        display: block;
+        position: fixed;
+        top: 22px;
+        right: 22px;
+        z-index: 2;
+    }
+
+    #ham {
+        height: 40px;
+    }
+
+    #menuMobileDiv {
+        position: fixed;
+        height: 100%;
+        top: 0;
+        right: -50%;
+        background-color: #0c0032;
+        display: flex;
+        flex-direction: column;
+        transition: all 0.3s;
+    }
+
+    #exit {
+        height: 40px;
+        width: 40px;
+        transform: rotate(45deg);
+        margin: 22px 22px 0 120px;
+        transition: all 0.3s;
+    }
+
+    #menuMobileDiv a {
+        text-decoration: none;
+        color: #fff;
+        margin: 1rem 4rem 0 20px;
+    }
+
+    #menuLogo {
+        position: absolute;
+        width: 200px;
+        bottom: 1rem;
+        left: 0.8rem;
+    }
+
 }
 
 @media screen and (max-width: 350px) {

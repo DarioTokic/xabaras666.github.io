@@ -46,3 +46,14 @@ document.querySelectorAll(".navigation li").forEach(function(item, i) {
         })
     })
 });
+
+
+const ham = document.querySelector("#ham");
+ham.addEventListener('click', () => {
+    document.querySelector('#menuMobileDiv').style.right = 0
+})
+
+const exit = document.querySelector("#exit");
+exit.addEventListener('click', () => {
+    document.querySelector('#menuMobileDiv').style.right = '-50%'
+})
