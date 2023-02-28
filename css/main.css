@@ -8,6 +8,10 @@ html, body {
     overflow-x: hidden;
 }
 
+body {
+    background-image: url('../images/portfolioWallpaper.webp');
+}
+
 p {
     color: #fff;
 }
@@ -73,10 +77,6 @@ p {
 
 #menuMobile {
     display: none;
-}
-
-main {
-    background-image: url('../images/portfolioWallpaper.webp');
 }
 
 .navigation {

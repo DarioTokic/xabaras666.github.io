@@ -12,7 +12,7 @@ const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
 
-const el = document.querySelector("main");
+const el = document.querySelector("body");
 
 el.addEventListener("mousemove", (e) => {
     console.log(e);
