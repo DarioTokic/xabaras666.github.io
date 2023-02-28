@@ -90,6 +90,7 @@ main {
     margin-bottom: 20px;
     transform: rotate(45deg);
     transition: all 0.3s;
+    background-color: #000;
 }
 
 .navigation li:hover, .navigation li.selected {
