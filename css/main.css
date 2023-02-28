@@ -193,7 +193,7 @@ section div:hover {
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 650px) {
 
     .desktop a {
         display: none;
