@@ -41,6 +41,13 @@
     width: 40px;
 }
 
+.backGray {
+    width: 26vw;
+    height: 30vw;
+    left: 40vw;
+    top: 34vh;
+}
+
 @media screen and (max-width: 900px) {
     .back {
         width: 44vw;
