@@ -94,6 +94,37 @@
     top: 18vh;
 }
 
+#gimpDiv {
+    left: 22vw;
+    top: 40vh;
+}
+
+#gimpDiv img {
+    height: 20vh;
+}
+
+#inkscapeDiv {
+    left: 46vw;
+    top: 74vh;
+}
+
+#inkscapeDiv img {
+    object-fit: cover;
+    height: 20vh;
+    width: 20vh;
+}
+
+#figmaDiv {
+    left: 28vw;
+    top: 64vh;
+}
+
+#figmaDiv img {
+    object-fit: cover;
+    height: 20vh;
+    width: 20vh;
+}
+
 #linuxDiv {
     left: 28vw;
     top: 48vh;
@@ -107,6 +138,12 @@
     width: 34vw;
     left: 44vw;
     top: 60vh;
+}
+
+#pl7 {
+    width: 34vw;
+    left: 48vw;
+    top: 38vh;
 }
 
 .backGray {
