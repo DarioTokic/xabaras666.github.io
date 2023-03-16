@@ -88,11 +88,12 @@
     top: 20vh;
 }
 
-#pl5 {
+#pl5, #pl51 {
     width: 34vw;
     left: 19vw;
     top: 18vh;
 }
+
 
 #gimpDiv {
     left: 22vw;
@@ -134,13 +135,13 @@
     height: 20vh;
 }
 
-#pl6 {
+#pl6, #pl61 {
     width: 34vw;
     left: 44vw;
     top: 60vh;
 }
 
-#pl7 {
+#pl7, #pl71 {
     width: 34vw;
     left: 48vw;
     top: 38vh;
@@ -301,7 +302,50 @@
         left: 46vw;
         top: 56vh;
     }
+
+    #gimpDiv {
+        top: 47vh;
+    }
+
+    #gimpDiv img {
+        height: 12vh;
+    }
+
+    #figmaDiv {
+        left: 72vw;
+        top: 30vh;
+    }
     
+    #figmaDiv img {
+        height: 12vh;
+        width: 12vh;
+    }
+
+    #inkscapeDiv {
+        top: 80vh;
+        
+    }
+
+    #inkscapeDiv img {
+        height: 12vh;
+        width: 12vh;
+    }
+
+    #pl51 {
+        left: 8vw;
+        width: 50vw;
+    }
+
+    #pl61 {
+        left: 4vh;
+        width: 28vw;
+    }
+
+    #pl71 {
+        top: 46vh;
+        width: 46vw;
+    }
+
     #back3 {
         width: 62vw;
         left: 16vw;

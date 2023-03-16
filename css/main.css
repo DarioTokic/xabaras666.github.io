@@ -215,7 +215,7 @@ section div:hover {
         position: fixed;
         height: 100%;
         top: 0;
-        right: -80%;
+        right: -100%;
         background-color: #0c0032;
         display: flex;
         flex-direction: column;
